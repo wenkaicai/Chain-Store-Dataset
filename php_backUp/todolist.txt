@@ -1,0 +1,4 @@
+Queries: Aggregation with Group By
+Queries: Aggregation with Having
+This criterion is linked to a Learning OutcomeQueries: Nested Aggregation with Group By
+Queries: Division

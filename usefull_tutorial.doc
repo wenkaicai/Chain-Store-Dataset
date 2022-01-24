@@ -1,0 +1,62 @@
+1. $name = "string", int, float, boolean;
+2. echo prints the information;
+ex. echo "aa"; : prints aa;
+    echo 34;   : prints 34;
+    echo $name;: prints the variable;
+3. strtolower(), strtoupper() will print lowercase or uppercase;
+   strlen() is length of characters;
+   $name[i] get the index of string;
+   $name[i] = "a" changes ith index to a;
+   str_replace("string to replace", "to new string", $name);
+   substr($name, n) n is the starting index;
+   substr($name, n, m) m is length to capture;
+4. echo 5 + 9; prints 14;
+5. <br> is break tag
+6. 
+   <form action="usefull_code.php" method="get">                 //"get" is to get information
+        Name: <input type="text" name="unique_name">            // shows the input box for inputting names, "unique_name" can be replaced with "any_name" this is like a parameter we can call later
+        <input type="submit">                                   // creates submit button
+   </form>
+   <br>
+   <?php echo $_GET["unique_name"] ?>                           // gets the name that is input for "unique_name" and echo prints the name that is submitted
+   // the $_GET["match"] has to match name="match" which we setup
+7. <input type="number" name="unique_name">                     // restrict to only insert numbers
+8. <input type="number" name="unique_name1">
+   <input type="number" name="unique_name2">
+   Total: <?php echo $_GET["unique_name1"] + $_GET["unique_name2"]
+   // this will print out the 2 numbers added together, any other operations will also work
+9. 
+   <form action="usefull_code.php" method="get">                 
+        Name: <input type="text" name="name"> <br>
+        Price: <input type="number" name="price"> <br>
+        Size: <input type="text" name="size"> <br>       
+        <input type="submit">                                  
+   </form>
+   <?php
+        echo "Ordered {name}";
+        echo "Price is {price};
+        echo "Size is {size};
+    ?>
+    // the {} is the input or data we get and will replace it in the sentence
+    // another way is to set a $name = $_GET["name"];
+                               $price = $_GET["price"];
+                               $size = $_GET["size"];
+    <?php
+        echo "Ordered $name";
+        echo "Price is $price";
+        echo "Size is $size";
+    ?>
+    // this will print out the same result
+10. $array = array("1", "2", "3");
+    echo $array[i];                          // prints the index value of array
+    echo count($array);                      // prints the amount
+11. 
+    <form action="usefull_code.php" method="post">           
+        Name: <input type="checkbox" name="check_box_name[]" value="some_name"> 
+        <input type="submit">                                  
+   </form>
+   // checkbox, the must have [] for each name="...[]"
+   // value is the value we give
+   <?php
+     $something = $_POST["check_box_name"];      // this is an array
+   ?> 

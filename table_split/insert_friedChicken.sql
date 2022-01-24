@@ -1,0 +1,14 @@
+INSERT INTO FriedChicken(meal_id, friedChicken_flavour) VALUES (1, 'Jamaican');
+INSERT INTO FriedChicken(meal_id, friedChicken_flavour) VALUES (2, 'Hot Asian');
+INSERT INTO FriedChicken(meal_id, friedChicken_flavour) VALUES (3, 'Baked Popcorn');
+INSERT INTO FriedChicken(meal_id, friedChicken_flavour) VALUES (4, 'Buttermilk');
+INSERT INTO FriedChicken(meal_id, friedChicken_flavour) VALUES (5, 'Mango Hot Sauce');
+INSERT INTO FriedChicken(meal_id, friedChicken_flavour) VALUES (6, 'Chinese Orange');
+INSERT INTO FriedChicken(meal_id, friedChicken_flavour) VALUES (7, 'Hot Asian');
+INSERT INTO FriedChicken(meal_id, friedChicken_flavour) VALUES (8, 'Crispy Coconut');
+INSERT INTO FriedChicken(meal_id, friedChicken_flavour) VALUES (9, 'Buffalo');
+INSERT INTO FriedChicken(meal_id, friedChicken_flavour) VALUES (10, 'Hot Sauce');
+INSERT INTO FriedChicken(meal_id, friedChicken_flavour) VALUES (11, 'Pepper and Salt');
+INSERT INTO FriedChicken(meal_id, friedChicken_flavour) VALUES (12, 'Hot Asian');
+INSERT INTO FriedChicken(meal_id, friedChicken_flavour) VALUES (13, 'Butter');
+INSERT INTO FriedChicken(meal_id, friedChicken_flavour) VALUES (14, 'Chilli and Spice');

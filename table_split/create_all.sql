@@ -1,0 +1,14 @@
+START table_store;
+START table_workStation;
+START table_staff;
+START table_member;
+START table_customer;
+START table_orders;
+START table_meal;
+START table_drink;
+START table_friedChicken;
+START table_fries;
+START table_contains;
+START table_cookBy;
+START table_sendsMealTo;
+START table_serve;

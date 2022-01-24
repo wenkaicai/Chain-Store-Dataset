@@ -1,0 +1,15 @@
+INSERT INTO WorkStation(store_id, workStation_id, workStation_name) VALUES (1000, 100, 'station1');
+INSERT INTO WorkStation(store_id, workStation_id, workStation_name) VALUES (1000, 101, 'station2');
+INSERT INTO WorkStation(store_id, workStation_id, workStation_name) VALUES (1000, 102, 'station3');
+INSERT INTO WorkStation(store_id, workStation_id, workStation_name) VALUES (1001, 103, 'station1');
+INSERT INTO WorkStation(store_id, workStation_id, workStation_name) VALUES (1001, 104, 'station2');
+INSERT INTO WorkStation(store_id, workStation_id, workStation_name) VALUES (1001, 105, 'station3');
+INSERT INTO WorkStation(store_id, workStation_id, workStation_name) VALUES (1002, 106, 'station1');
+INSERT INTO WorkStation(store_id, workStation_id, workStation_name) VALUES (1002, 107, 'station2');
+INSERT INTO WorkStation(store_id, workStation_id, workStation_name) VALUES (1002, 108, 'station3');
+INSERT INTO WorkStation(store_id, workStation_id, workStation_name) VALUES (1003, 109, 'station1');
+INSERT INTO WorkStation(store_id, workStation_id, workStation_name) VALUES (1003, 110, 'station2');
+INSERT INTO WorkStation(store_id, workStation_id, workStation_name) VALUES (1003, 111, 'station3');
+INSERT INTO WorkStation(store_id, workStation_id, workStation_name) VALUES (1004, 112, 'station1');
+INSERT INTO WorkStation(store_id, workStation_id, workStation_name) VALUES (1004, 113, 'station2');
+INSERT INTO WorkStation(store_id, workStation_id, workStation_name) VALUES (1004, 114, 'station3');

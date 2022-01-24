@@ -1,0 +1,14 @@
+DROP TABLE Contains;
+DROP TABLE CookBy;
+DROP TABLE SendsMealTo;
+DROP TABLE Serve;
+DROP TABLE Drink;
+DROP TABLE FriedChicken;
+DROP TABLE Fries;
+DROP TABLE Meal;
+DROP TABLE Orders;
+DROP TABLE Customer;
+DROP TABLE Member;
+DROP TABLE Staff;
+DROP TABLE WorkStation;
+DROP TABLE Store;
